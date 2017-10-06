@@ -24,5 +24,8 @@ junkyard << 'Nugget' << 'Tuson' << 'Smart' << 'R8' << 'Monster Truck'
 puts showroom.inspect
 puts junkyard.inspect
 
-new_set = showroom | junkyard
-puts new_set.inspect
+puts showroom & junkyard
+
+puts showroom | junkyard
+
+puts showroom - junkyard
